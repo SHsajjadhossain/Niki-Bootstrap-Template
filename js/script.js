@@ -6,7 +6,7 @@ $('.venobox').venobox();
 $('.plugin_slider').slick({
     dots: false,
 	arrows: true,
-    autoplay: false,
+    autoplay: true,
     infinite: true,
     speed: 300,
     slidesToShow: 3,
@@ -50,7 +50,7 @@ $('.plugin_slider').slick({
 $('.brand_plugin').slick({
     dots: false,
     arrows: false,
-    autoplay: false,
+    autoplay: true,
     autoplaySpeed: 1000,
     infinite: true,
     speed: 300,
